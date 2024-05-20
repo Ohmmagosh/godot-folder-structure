@@ -12,4 +12,18 @@ Considering that, the most common approach is to group assets as close to scenes
 
 As an example, one can usually place into a single folder their basic assets, such as sprite images, 3D model meshes, materials, and music, etc. They can then use a separate folder to store built levels that use them.
 
-``Use `code` in your Markdown file.``
+``
+/project.godot
+/docs/.gdignore  # See "Ignoring specific folders" below
+/docs/learning.html
+/models/town/house/house.dae
+/models/town/house/window.png
+/models/town/house/door.png
+/characters/player/cubio.dae
+/characters/player/cubio.png
+/characters/enemies/goblin/goblin.dae
+/characters/enemies/goblin/goblin.png
+/characters/npcs/suzanne/suzanne.dae
+/characters/npcs/suzanne/suzanne.png
+/levels/riverdale/riverdale.scn
+``
